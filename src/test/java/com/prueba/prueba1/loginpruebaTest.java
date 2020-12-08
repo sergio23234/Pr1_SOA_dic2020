@@ -44,7 +44,7 @@ public class loginpruebaTest {
     public void testPruebalogin() {
         System.out.println("pruebalogin");
         String nombre = "sergio";
-        String contra = "contra";
+        String contra = "contra1";
         loginprueba instance = new loginprueba();
         String expResult = "sergio__contra";
         String result = instance.pruebalogin(nombre, contra);
