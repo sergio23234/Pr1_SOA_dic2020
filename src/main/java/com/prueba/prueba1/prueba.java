@@ -33,7 +33,7 @@ public class prueba extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         loginprueba p = new loginprueba();
         String nombre = request.getParameter("username");
-        String contra = request.getParameter("contra");
+        String contra = request.getParameter("contra1");
         try (PrintWriter out = response.getWriter()) {
             out.println(p.pruebalogin(nombre,contra));
             out.println("<meta http-equiv='refresh' content='3;URL=index.jsp'>");
